@@ -81,3 +81,5 @@ export default async function Watchlist() {
     </>
   );
 }
+
+export const dynamic = "force-dynamic";

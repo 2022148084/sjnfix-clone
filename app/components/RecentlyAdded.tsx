@@ -78,3 +78,6 @@ export default async function RecentlyAdded() {
     </div>
   );
 }
+
+
+export const dynamic = "force-dynamic";

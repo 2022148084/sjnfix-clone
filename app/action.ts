@@ -1,4 +1,4 @@
-
+"use server";
 
 import { revalidatePath } from "next/cache";
 import prisma from "./utils/db";
@@ -37,4 +37,3 @@ export async function deleteFromWatchlist(formData: FormData) {
   revalidatePath(pathname);
 }
 
-export const dynamic = "force-dynamic";

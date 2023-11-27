@@ -155,3 +155,5 @@ export default async function CategoryPage({
     </div>
   );
 }
+
+export const dynamic = "force-dynamic";
