@@ -36,3 +36,5 @@ export async function deleteFromWatchlist(formData: FormData) {
 
   revalidatePath(pathname);
 }
+
+export const dynamic = "force-dynamic";
